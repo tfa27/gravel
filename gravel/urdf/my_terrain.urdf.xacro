@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="my_terrain">
+
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+  <link name="base_link"/>
+
+
+  <link name="my_terraini0j0">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri0j0" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini0j0"/>
+    <origin xyz=" -1.84 -1.84 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini0j1">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri0j1" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini0j1"/>
+    <origin xyz=" -1.84 -0.92 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini0j2">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri0j2" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini0j2"/>
+    <origin xyz=" -1.84 0.0 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini0j3">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri0j3" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini0j3"/>
+    <origin xyz=" -1.84 0.9200000000000002 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini1j0">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri1j0" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini1j0"/>
+    <origin xyz=" -0.92 -1.84 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini1j1">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri1j1" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini1j1"/>
+    <origin xyz=" -0.92 -0.92 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini1j2">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri1j2" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini1j2"/>
+    <origin xyz=" -0.92 0.0 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini1j3">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri1j3" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini1j3"/>
+    <origin xyz=" -0.92 0.9200000000000002 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini2j0">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri2j0" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini2j0"/>
+    <origin xyz=" 0.0 -1.84 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini2j1">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri2j1" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini2j1"/>
+    <origin xyz=" 0.0 -0.92 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini2j2">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri2j2" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini2j2"/>
+    <origin xyz=" 0.0 0.0 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini2j3">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri2j3" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini2j3"/>
+    <origin xyz=" 0.0 0.9200000000000002 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini3j0">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri3j0" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini3j0"/>
+    <origin xyz=" 0.9200000000000002 -1.84 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini3j1">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri3j1" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini3j1"/>
+    <origin xyz=" 0.9200000000000002 -0.92 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini3j2">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri3j2" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini3j2"/>
+    <origin xyz=" 0.9200000000000002 0.0 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+  <link name="my_terraini3j3">
+    <visual>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://earl_gazebo/stl/gravel_l.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01" />
+      <inertia ixx="0.01" ixy="0.01" iyy="0.01" iyz="0.01" izz="0.01" ixz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="base2terri3j3" type="fixed">
+    <parent link="base_link"/>
+    <child link="my_terraini3j3"/>
+    <origin xyz=" 0.9200000000000002 0.9200000000000002 0" rpy="1.5708 0 0"/>
+  </joint>
+
+
+
+</robot>
